@@ -159,7 +159,7 @@ for (var i = 0; i < tuteeTimes.length; i++) {
 console.log(largest2);
 
 if (tuteeTimes.indexOf(largest2) !== -1 && largest2 >= 5) {
-  var recT2 = tuteeTimes.indexOf(largest)
+  var recT2 = tuteeTimes.indexOf(largest2)
   console.log(recT2)
   document.getElementById("recommended").innerHTML = tutee_div[recT2]
 }
